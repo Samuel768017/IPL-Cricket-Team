@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        body{
+            background-image:linear-gradient(76deg, rgba(32, 16, 96, 0.944) 35%, rgba(47, 55, 89, 0.073) 65%),
+            url("https://wallpapercave.com/wp/wp1960355.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+    </style>
+    <title>Indian Premier League</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+
+<body>
+    <header id="header" class="top">
+        <div id="topelement">
+            <img src="https://upload.wikimedia.org/wikipedia/en/8/84/Indian_Premier_League_Official_Logo.svg" alt="logo" width="90" height="55"/>
+            <a href="index.html" class="space">Home</a>
+            <a href="gallery.html"class="space">Gallery</a>
+        </div>
+    </header>
+
+   <div class="gang">
+      <h2>Create Team</h2>
+      
+      <form id="Form">
+        <p>
+        <label><b>Enter team name</label></b><br>
+        <input id="inputName" type="text" placeholder="Your Team Name"><br>
+        <label><b>Enter team Logo</label></b><br>
+        <input id="inputName2" type="text" placeholder="Logo Url">
+        </p>
+        <button id="button" onclick="buttonclick()"><b>Create Team</b></button>
+        <button id="button2" onclick="button2click()"><b>Delete Team</b></button>
+      </form>
+    </div>
+    <div id="yourteam"> 
+        
+
+    </div>
+    
+    <div id="home">
+        
+    </div>
+    <script>
+        function button2click()
+        {
+            localStorage.clear()
+            var team=document.getElementById("yourteam")
+            team.style.display="none"
+            window.location.href = "index.html";
+        }
+    </script>
+    
+    <script src="index.js"></script>
+</body>

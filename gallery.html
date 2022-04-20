@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photos</title>
+<style>
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+	background-color: black;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3px 100px 100px 100px;
+}
+.column{
+    flex: 30%;
+    max-width: 40%;
+}
+.img-hover-zoom{
+    height: auto;
+    overflow: hidden;
+    border: 5px solid rgb(5, 2, 2);
+}
+.img-hover-zoom img{
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition:  transform .5s ease;
+}
+.img-hover-zoom:hover img{
+    transform: scale(1.5);
+}
+
+@media screen and (max-width: 800px) {
+    .column{
+        flex: 50%;
+        max-width: 50%;
+		
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .column{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="header">
+    </div>
+
+    
+    <div class="row">
+
+        <div class="column">
+            <div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/477/dbe0b278-68f1-45fa-81ca-46099efb5c0f.jpg" style="width:100%" alt="">
+            </div>
+            <div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/486/78437eef-50bf-4bad-9ddc-d04f92b8322f.jpg" style="width:100%" alt="">
+            </div>
+			<div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/477/019db906-b95b-4fb7-b15b-382f1c7f9889.jpg" style="width:100%" alt="">
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/459/8326d708-431b-44e3-b645-3e6b466e34ae.jpg" style="width:100%" alt="">
+            </div>
+            <div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/465/7d9adb49-1b6d-411b-a553-5adf644dcc6c.jpg" style="width:100%" alt="">
+            </div>
+            <div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/477/019db906-b95b-4fb7-b15b-382f1c7f9889.jpg" style="width:100%" alt="">
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/477/c30fc89a-d297-4dab-8f73-ad25e1e13ee5.jpg" style="width:100%" alt="">
+            </div>
+            <div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/477/577c37b6-237c-448c-85eb-3bf3f35ca547.jpg" style="width:100%" alt="">
+            </div>
+            <div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/467/b63a52ca-8558-4b7a-849f-59983c774507.jpg" style="width:100%" alt="">
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/478/85c6686c-eddb-4e9c-88a6-2f5f19c45a17.jpg" style="width:100%" alt="">
+            </div>
+            <div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/457/43b3e537-30f1-4139-bcba-735f6e8da9ac.jpg" style="width:100%" alt="">
+            </div>
+			<div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/472/dc88f46d-66b3-4bab-972f-6cd553063231.jpg" style="width:100%" alt="">
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/477/ee72af3f-280c-474f-aa18-c87c014bcba1.jpg" style="width:100%" alt="">
+            </div>
+            <div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/465/940e7797-c93e-4762-9bd6-617583fcbd67.jpg" style="width:100%" alt="">
+            </div>
+            <div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/468/740b9d6e-b892-4872-8644-508b74742e82.jpg" style="width:100%" alt="">
+            </div>
+        </div>
+		<div class="column">
+            <div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/468/9657c87b-30d9-42db-a4d0-5099c2fe2c59.jpg" style="width:100%" alt="">
+            </div>
+            <div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/472/dc88f46d-66b3-4bab-972f-6cd553063231.jpg" style="width:100%" alt="">
+            </div>
+            <div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/472/ac6f4e6e-e797-46c7-8272-bbf849d9d899.jpg" style="width:100%" alt="">
+            </div>
+        </div>
+
+		<div class="column">
+            <div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/477/ee72af3f-280c-474f-aa18-c87c014bcba1.jpg" style="width:100%" alt="">
+            </div>
+            <div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/465/940e7797-c93e-4762-9bd6-617583fcbd67.jpg" style="width:100%" alt="">
+            </div>
+            <div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/465/d123f88e-88ec-430e-b7e6-83700a3814b6.jpg" style="width:100%" alt="">
+            </div>
+        </div>
+		<div class="column">
+            <div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/465/03b33782-57cc-441b-83c3-c4a5d405baeb.jpg" style="width:100%" alt="">
+            </div>
+            <div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/465/8092c338-a66a-4558-b00b-ec8a4198d382.jpg" style="width:100%" alt="">
+            </div>
+            <div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/465/4468ff84-c429-4f8d-a8f6-4e06bea7df63.jpg" style="width:100%" alt="">
+            </div>
+        </div>
+        <div class="column">
+            <div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/467/b63a52ca-8558-4b7a-849f-59983c774507.jpg" style="width:100%" alt="">
+            </div>
+			<div class="img-hover-zoom">
+			<img src="https://assets.bcci.tv/bcci/photos/472/dc88f46d-66b3-4bab-972f-6cd553063231.jpg" style="width:100%" alt="">
+		    </div>
+            <div class="img-hover-zoom">
+                <img src="https://assets.bcci.tv/bcci/photos/468/9657c87b-30d9-42db-a4d0-5099c2fe2c59.jpg" style="width:100%" alt="">
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+
